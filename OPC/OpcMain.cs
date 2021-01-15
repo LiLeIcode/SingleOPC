@@ -21,8 +21,8 @@ namespace SingleOPC.OPC
         
         private OPCServer _opcServer;
         private readonly List<OpcData> _bindingData = new List<OpcData>();
-        string _hostIp, _hostName;
-        string _kepServerName;
+        private string _hostIp, _hostName;
+        private string _kepServerName;
         private OPCGroups _opcGroups;
         private OPCGroup _opcGroup;
         private OPCItems _opcItems;
@@ -85,7 +85,7 @@ namespace SingleOPC.OPC
                 catch (Exception exception)
                 {
                     Log.Error("初始化Opc出错：" + exception);
-                    throw exception;
+                    throw;
                 }
                 //连接opc
                 try
@@ -96,7 +96,7 @@ namespace SingleOPC.OPC
                 catch (Exception e)
                 {
                     Log.Error("连接Opc出错：" + e);
-                    throw e;
+                    throw;
                 }
                 RecurBrowse(_opcServer.CreateBrowser(), filter);
                 try
@@ -132,6 +132,7 @@ namespace SingleOPC.OPC
                             }
                             catch (Exception e)
                             {
+                                // ignored
                             }
                         }
 
@@ -204,12 +205,12 @@ namespace SingleOPC.OPC
                 _opcGroup.DataChange -= new DIOPCGroupEvent_DataChangeEventHandler(opcGroup_DataChange);
             }
 
-            if (_opcServer != null)
-            {
-                Log.Info("关闭opc连接");
-                //_opcServer.Disconnect();//如果关闭连接，下次重新要获取节点，重新ReadOPCValue
-                //_opcServer = null;
-            }
+            //if (_opcServer != null)
+            //{
+            //    Log.Info("关闭opc连接");
+            //    //_opcServer.Disconnect();//如果关闭连接，下次重新要获取节点，重新ReadOPCValue
+            //    //_opcServer = null;
+            //}
         }
         //
         public void Close()
