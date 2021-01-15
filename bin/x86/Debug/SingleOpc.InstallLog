@@ -1,0 +1,13 @@
+﻿正在安装程序集“D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\x86\Debug\SingleOpc.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\x86\Debug\SingleOpc.InstallLog
+   assemblypath = D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\x86\Debug\SingleOpc.exe
+没有 RunInstallerAttribute.Yes 的公共安装程序。在 D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\x86\Debug\SingleOpc.exe 程序集中应该可以找到“Yes”特性。
+正在提交程序集“D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\x86\Debug\SingleOpc.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\x86\Debug\SingleOpc.InstallLog
+   assemblypath = D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\x86\Debug\SingleOpc.exe
+没有 RunInstallerAttribute.Yes 的公共安装程序。在 D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\x86\Debug\SingleOpc.exe 程序集中应该可以找到“Yes”特性。
+没有安装程序，因此移除 InstallState 文件。

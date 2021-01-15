@@ -1,0 +1,44 @@
+ ----------------------header--------------------------
+2021-01-13 10:55:30,032 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2021-01-13 10:55:38,431 [3] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'DEFAULT.3aaae95d-0523-4964-a7b1-79a7dd489dc5', class=SingleOPC.Task.OpcTask
+2021-01-13 10:55:38,432 [4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job DEFAULT.3aaae95d-0523-4964-a7b1-79a7dd489dc5
+2021-01-13 10:55:38,442 [3] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2021-01-13 10:55:38,450 [4] INFO  SingleOPC.OPC.OpcMain - opcMain is not null 初始化
+2021-01-13 10:55:38,452 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2021-01-13 10:55:48,432 [3] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'DEFAULT.3aaae95d-0523-4964-a7b1-79a7dd489dc5', class=SingleOPC.Task.OpcTask
+2021-01-13 10:55:48,432 [4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job DEFAULT.3aaae95d-0523-4964-a7b1-79a7dd489dc5
+2021-01-13 10:55:48,432 [3] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2021-01-13 10:55:48,441 [4] INFO  SingleOPC.OPC.OpcMain - opcMain is not null 初始化
+2021-01-13 10:55:48,442 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2021-01-13 10:55:58,430 [3] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'DEFAULT.3aaae95d-0523-4964-a7b1-79a7dd489dc5', class=SingleOPC.Task.OpcTask
+2021-01-13 10:55:58,431 [4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job DEFAULT.3aaae95d-0523-4964-a7b1-79a7dd489dc5
+2021-01-13 10:55:58,431 [3] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2021-01-13 10:55:58,442 [4] INFO  SingleOPC.OPC.OpcMain - opcMain is not null 初始化
+2021-01-13 10:55:58,442 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+ ----------------------header--------------------------
+2021-01-13 11:25:02,597 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2021-01-13 11:25:11,005 [3] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba', class=SingleOPC.Task.OpcTask
+2021-01-13 11:25:11,006 [4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba
+2021-01-13 11:25:11,015 [3] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2021-01-13 11:25:11,020 [4] INFO  SingleOPC.OPC.OpcMain - opcMain is not null 初始化
+2021-01-13 11:25:11,021 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2021-01-13 11:25:21,006 [3] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba', class=SingleOPC.Task.OpcTask
+2021-01-13 11:25:21,006 [4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba
+2021-01-13 11:25:21,006 [3] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2021-01-13 11:25:21,014 [4] INFO  SingleOPC.OPC.OpcMain - opcMain is not null 初始化
+2021-01-13 11:25:21,014 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2021-01-13 11:25:31,003 [3] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba', class=SingleOPC.Task.OpcTask
+2021-01-13 11:25:31,004 [4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba
+2021-01-13 11:25:31,004 [3] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2021-01-13 11:25:31,026 [4] INFO  SingleOPC.OPC.OpcMain - opcMain is not null 初始化
+2021-01-13 11:25:31,027 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2021-01-13 11:25:41,009 [3] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba', class=SingleOPC.Task.OpcTask
+2021-01-13 11:25:41,011 [4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba
+2021-01-13 11:25:41,011 [3] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2021-01-13 11:25:41,038 [4] INFO  SingleOPC.OPC.OpcMain - opcMain is not null 初始化
+2021-01-13 11:25:41,039 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2021-01-13 11:25:51,011 [3] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba', class=SingleOPC.Task.OpcTask
+2021-01-13 11:25:51,012 [4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job DEFAULT.bddfeda9-9d93-4721-8207-bf5157a87aba
+2021-01-13 11:25:51,012 [3] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2021-01-13 11:25:51,025 [4] INFO  SingleOPC.OPC.OpcMain - opcMain is not null 初始化
+2021-01-13 11:25:51,025 [4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
