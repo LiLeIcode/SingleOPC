@@ -39,27 +39,29 @@ namespace SingleOPC.OPC
         {
             Log.Info("进入私有构造器初始化");
             _opcServer = opcServer;
-            
             _dic = new Dictionary<int, string>();
             _serviceDic = new Dictionary<int, string>();
             _client = redisClient;
             log4net.Config.XmlConfigurator.Configure();
-
         }
 
         public static OpcMain GetOpcMain(OPCServer opcServer, RedisClient redisClient)
         {
-            lock ("obj")
+            if (_opcMain == null)
             {
-                if (_opcMain == null)
+                lock ("obj")
                 {
-                    Log.Info("opcMain is null");
-                    _opcMain = new OpcMain(opcServer, redisClient);
-                    return _opcMain;
+                    if (_opcMain == null)
+                    {
+                        Log.Info("opcMain is null");
+                        _opcMain = new OpcMain(opcServer, redisClient);
+                        return _opcMain;
+                    }
+                    Log.Info("opcMain is not null");
+                    
                 }
-                Log.Info("opcMain is not null");
-                return _opcMain;
             }
+            return _opcMain;
         }
 
 
@@ -90,7 +92,9 @@ namespace SingleOPC.OPC
                 //连接opc
                 try
                 {
-                    Log.Info("连接Opc");
+                    //KEPware.KEPServerEx.V4
+                    //127.0.0.1
+                    Log.Info($"连接Opc:{_kepServerName},{_hostIp}");
                     _opcServer.Connect(_kepServerName, _hostIp);
                 }
                 catch (Exception e)
@@ -142,7 +146,7 @@ namespace SingleOPC.OPC
                 }
                 catch (Exception e)
                 {
-                    Log.Error("设置opcGroups，opcgroup.opcitems:"+e);
+                    Log.Error("设置opcGroups,opcGroup,opcItems:"+e);
                     throw;
                 }
             }

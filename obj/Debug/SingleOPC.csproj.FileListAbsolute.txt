@@ -13,8 +13,16 @@ D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\System.Memory.xml
 D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\System.Numerics.Vectors.xml
 D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\System.Buffers.xml
-D:\Csharpworkspace\OPC\OPC\SingleOPC\obj\Debug\SingleOPC.csprojAssemblyReference.cache
 D:\Csharpworkspace\OPC\OPC\SingleOPC\obj\Debug\SingleOPC.csproj.CoreCompileInputs.cache
 D:\Csharpworkspace\OPC\OPC\SingleOPC\obj\Debug\SingleOPC.csproj.CopyComplete
 D:\Csharpworkspace\OPC\OPC\SingleOPC\obj\Debug\SingleOPC.exe
 D:\Csharpworkspace\OPC\OPC\SingleOPC\obj\Debug\SingleOPC.pdb
+D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\log4net.dll
+D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\Quartz.dll
+D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\log4net.xml
+D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\Quartz.xml
+D:\Csharpworkspace\OPC\OPC\SingleOPC\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Csharpworkspace\OPC\OPC\SingleOPC\obj\Debug\SingleOPC.csprojAssemblyReference.cache
